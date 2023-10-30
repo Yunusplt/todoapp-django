@@ -39,10 +39,11 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    #! myApps
-    'todoApp',
     #! 3rdPartApps
     'rest_framework',
+
+    #! myApps
+    'todoApp',
 ]
 
 MIDDLEWARE = [
